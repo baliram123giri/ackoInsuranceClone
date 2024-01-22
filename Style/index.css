@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.b_screen_view .b_left {
+    width: 60%;
+}
+
+.b_screen_view .b_left ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b_screen_view .b_left a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.b_screen_view .b_left a i {
+    font-size: 10px;
+}
+
+/*Services*/
+.b_services {
+    width: 35%;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+.b_services .b_box h6 {
+    margin-top: 6px;
+    color: white;
+    font-size: 13px;
+}
+
+.b_services .b_icon {
+    background: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* car  service_bananer */
+.b_car_service_banner .b_left_img {
+    width: 25%;
+
+}
+
+.b_car_service_banner .b_center_form_box {
+    width: 35%;
+
+}
+
+.b_car_service_banner .b_center_form {
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.b_car_service_banner .b_center_form .b_icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.b_car_service_banner .b_center_form h6 {
+    font-size: 15px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.b_car_service_banner .b_center_form button:hover {
+    background: none;
+    color: inherit;
+}
+
+.b_car_service_banner .b_center_form .b_input_box {
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.b_car_service_banner .b_center_form .b_input_box input {
+    border: none;
+    outline: none;
+}
+
+.b_car_service_banner .b_center_form .b_input_box button {
+    padding: 10px 30px;
+}
+
+.b_car_service_banner .b_right_img {
+    width: 25%;
+
+}
