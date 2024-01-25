@@ -88,6 +88,20 @@ travel.addEventListener("click", function (event) {
     healthBanner.classList.add("d-none")
     lifeBanner.classList.add("d-none")
 })
-// document.addEventListener("click", function (event) {
-//     console.log(event.target)
-// })
+
+//video section
+const crrentVideo = document.getElementById("b_current_video")
+const currentTitle = document.getElementById("title")
+const videoList = document.getElementsByClassName("b_video")
+
+for (let i = 0; i < videoList.length; i++) {
+    const listSrc = videoList[i].children.item("div").children.item("div").children.item("video").src
+    const text = videoList[i].children[1].children[0].innerText
+
+    videoList[i].addEventListener("click", () => {
+        crrentVideo.src = listSrc
+        currentTitle.innerText = text
+        crrentVideo.play()
+    })
+}
+

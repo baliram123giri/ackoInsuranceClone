@@ -40,13 +40,17 @@
 }
 
 /*custom layout*/
-.b_container{
+.b_container {
     width: 80%;
     margin: auto;
     padding: 5px;
 }
 
+.b_cursor_pointer {
+    cursor: pointer;
+}
+
 /*overite existing btns*/
-.btn-success{
+.btn-success {
     background: #108e4f;
 }
