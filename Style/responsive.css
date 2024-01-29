@@ -1,0 +1,8 @@
+@media screen and (min-width:768px) {
+    .b_header_full_screen {
+        display: flex !important;
+    }
+    .b_header_small_screen{
+        display: none !important;
+    }
+}

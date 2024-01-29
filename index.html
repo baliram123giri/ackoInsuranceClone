@@ -23,13 +23,62 @@
     <link rel="stylesheet" href="Style/index.css" />
     <!--Custom bootstrap css file-->
     <link rel="stylesheet" href="Style/custom_bootstrap.css" />
+    <!--responsive css file-->
+    <link rel="stylesheet" href="Style/responsive.css" />
   </head>
   <body>
     <!--screen view-->
     <div class="b_screen_view b_bg_primary">
-      <!--header part-->
+      <!--header part small screen-->
       <header
-        class="b_container pt-3 d-flex justify-content-between align-items-center"
+        class="p-2 b_header_small_screen d-flex justify-content-between align-items-center"
+      >
+        <div>
+          <a href="">
+            <img src="/images/logo.svg" alt="" />
+          </a>
+        </div>
+        <div id="open_slider_btn">
+          <i
+            class="fa fa-bars text-white"
+            style="font-size: 25px"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <!-- //slider part for mobile small screen  -->
+        <div class="b_small_screen_drawer d-none">
+          <div class="b_screen_wrapper">
+            <div class="p-2 d-flex justify-content-between align-items-center">
+              <img src="/images/logo.svg" alt="" />
+              <i
+                id="close_slider_btn"
+                class="fa fa-window-close"
+                style="font-size: 25px"
+                aria-hidden="true"
+              ></i>
+            </div>
+            <nav>
+              <ul class="ps-3 nav flex-column">
+                <li>
+                  <a href=""> Products </a>
+                </li>
+                <li>
+                  <a href=""> Renewals </a>
+                </li>
+                <li>
+                  <a href=""> Claims </a>
+                </li>
+                <li>
+                  <a href=""> Resources </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--header part full screen-->
+      <header
+        class="b_container pt-3 d-flex justify-content-between align-items-center b_header_full_screen"
       >
         <div class="b_left">
           <nav>

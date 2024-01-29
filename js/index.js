@@ -219,7 +219,7 @@ for (let i = 0; i < footerNavData.length; i++) {
 
     //crerte h5
     const h5 = document.createElement("h5")
-    
+
     //1)innerText
     //2)innerHTML
     h5.innerText = footerNavData[i].title
@@ -254,8 +254,18 @@ for (let i = 0; i < footerNavData.length; i++) {
 
 
 
+//toggle mobile drawer
+const openSlideBtn = document.getElementById("open_slider_btn")
+const closeSlideBtn = document.getElementById("close_slider_btn")
+const drawer = document.querySelector(".b_small_screen_drawer")
 
+openSlideBtn.addEventListener("click", function () {
+    drawer.classList.remove("d-none")
+})
 
+closeSlideBtn.addEventListener("click", function () {
+    drawer.classList.add("d-none")
+})
 
 
 
